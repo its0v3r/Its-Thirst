@@ -1,0 +1,164 @@
+{
+  "text.autoconfig.itsthirst.title": "Paramètres de Simple Thirst",
+  "text.autoconfig.itsthirst.category.general_settings": "Paramètres Général",
+  "text.autoconfig.itsthirst.category.bad_water_settings": "Paramètres général de eau mal",
+  "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Paramètres d'effet soif de eau mal",
+  "text.autoconfig.itsthirst.category.stack_settings": "Paramètres de pilles de bouteilles",
+  "text.autoconfig.itsthirst.category.food_and_drink_settings": "Paramètres d'hydratation des aliments et des boissons",
+  "text.autoconfig.itsthirst.category.nether_settings": "Paramètres de Nether",
+
+
+  "text.autoconfig.itsthirst.option.damage_from_thirst": "Dégâts de Soif",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[0]": "Définit les dégâts subis toutes les 4 secondes lorsque le joueur n'a pas de points de soif",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[1]": "Des valeurs plus élevées signifient plus de dégâts pour le joueur",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[2]": "Le standard: 1.0",
+
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed": "Vitesse de soif",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[0]": "Définit à quelle vitesse le niveau de soif diminuera avec le temps",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[1]": "Des valeurs plus élevées signifient qu'il faudra plus de temps pour avoir soif",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[2]": "Le Standard: 2.25",
+
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown": "Temps d'attente après avoir bu l'eau de la fontaine",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[0]": "Définit en secondes le temps d'attente que le joueur doit attendre pour boire de l'eau après avoir bu de l'eau d'une source d'eau avec le clic droit de la souris",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[1]": "Des valeurs plus élevées signifient plus de temps d'attente",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[2]": "Le Standard: 1 (1 seconde / 20 ticks)",
+
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown": "Autonomie en veille après avoir bu de l'eau de pluie",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[0]": "Définit en secondes le temps d'attente que le joueur doit attendre pour boire de l'eau après avoir bu de l'eau de pluie avec le clic droit de la souris",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[1]": "Des valeurs plus élevées signifient plus de temps d'attente",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[2]": "Le Standard : 4 (4 seconde / 80 ticks))",
+
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full": "Ne régénère la santé que si la faim et la soif sont pleines",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[0]": "Définit si le joueur ne régénère la santé que si les barres de faim et de soif sont pleines",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[1]": "False signifie un comportement Minecraft normal où le joueur régénérera la santé si la barre de faim est pleine, il n'y a aucune interférence de la barre de soif",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[2]": "Le Standard: Faux",
+
+
+  "text.autoconfig.itsthirst.option.bad_water": "Activer la eau mal",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[0]": "Définit si le joueur aura une chance de boire de la mauvaise eau d'une source d'eau ou de la pluie",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[1]": "Vrai signifie qu'il y a une chance de boire de l'eau mauvaise provenant d'une source d'eau ou de pluie",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[2]": "Le Standard: Réel",
+
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain": "Applique également la pluie",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[0]": "Définit si la pluie peut avoir une chance d'être une mauvaise eau",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[1]": "Faux signifie que la pluie n'a jamais la chance d'être une mauvaise eau",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[2]": "Le Standard: Faux",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance": "Chance de boire de la mauvaise eau d'une source d'eau",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[0]": "Définit la probabilité que l'eau de source soit une mauvaise eau",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[1]": "Des valeurs plus élevées signifient plus de chances que l'eau de source soit une mauvaise eau",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[2]": "Le Standard: 0.20 (20%)",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance": "Chance de boire une mauvaise eau de pluie",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[0]": "Définit la probabilité que la pluie soit une mauvaise eau",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[1]":"Des valeurs plus élevées signifient plus de chances que la pluie soit une mauvaise eau",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[2]": "Le Standard : 0.01 (1%)",
+
+
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration": "Durée de l'effet mauvaise soif d'eau",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[0]": "Définit la durée de l'effet soif",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[1]": "Des valeurs plus élevées signifient que l'effet de soif durera plus longtemps",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[2]": "Le Standard: 30 (30 secondes / 600 ticks)",
+
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor": "Mauvais facteur d'effet soif d'eau",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[0]": "Définit la quantité de soif que l'effet soif drainera",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[1]": "Des valeurs plus élevées signifient que l'effet Soif drainera plus de soif",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[2]": "La valeur est basée sur le compte minecraft de l'amplificateur d'échappement",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[3]": "Le Standard: 0.05",
+
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect": "Le niveau de soif faible applique l'effet Hâte",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[0]": "Définit si le joueur doit recevoir l'effet de précipitation lorsque le niveau de soif est bas",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[1]": "Vrai signifie que si le niveau de soif est bas, l'effet de hâte sera appliqué au joueur",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[2]": "Le Standard: Réel",
+
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect": "Niveau minimum de soif pour appliquer l'effet hâte",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[0]": "Définit à quel point le niveau de soif doit être bas pour que l'effet de précipitation s'applique",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[1]": "Des valeurs plus élevées signifient que l'effet de hâte sera appliqué si le joueur a plus de niveau de soif",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[2]": "Le Standard:4",
+
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect": "Un faible niveau de soif applique un effet d'épuisement",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[0]": "Définit si le joueur doit recevoir l'effet d'épuisement lorsque le niveau de soif est bas",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[1]": "Vrai signifie que si le niveau de soif est faible, l'effet d'épuisement sera appliqué au joueur",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[2]": "Le Standard: Réel",
+
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect": "Niveau de soif minimum pour appliquer l'effet d'épuisement",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[0]": "Définit à quel point le niveau de soif doit être bas pour que l'effet d'épuisement s'applique",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[1]": "Des valeurs plus élevées signifient que l'effet d'épuisement sera appliqué si le joueur a plus de niveau de soif",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[2]": "Le Standard: 2",
+
+  "text.autoconfig.itsthirst.option.can_stack_glass": "Est-il possible de stocker des bouteilles vides",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[0]": "Définit si le joueur peut stocker plus d'une bouteille vide",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[1]": "False signifie un comportement Minecraft normal où le joueur ne peut pas empiler plus d'une bouteille vide",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[2]": "Avertissement 1: Cet effet n'est appliqué qu'après la reconnexion du joueur au monde",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[3]": "Le Standard: Faux",
+
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor": "Facteur de stockage des bouteilles vides",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[0]": "Définit le nombre de bouteilles vides que le lecteur peut stocker",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[1]": "Des valeurs plus élevées signifient que le joueur peut stocker plus de bouteilles vides",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[2]": "Avertissement 1: Cet effet n'est appliqué qu'après la reconnexion du joueur au monde",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[3]": "Le Standard: 1",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion": "Est-il possible de stocker des bouteilles d'eau",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[0]": "Définit si le joueur peut stocker plus d'une bouteille d'eau",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[1]": "False signifie un comportement Minecraft normal où le joueur ne peut pas empiler plus d'une bouteille d'eau",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[2]": "Avertissement 1: Cet effet n'est appliqué qu'après la reconnexion du joueur au monde",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[3]": "Avertissement 2: Cet effet est appliqué à tous les éléments portant le nom 'minecraft:potion', donc chaque bouteille de potion qui a des effets spéciaux sera affectée",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[4]": "Le Standard: Faux",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor": "Facteur de stockage de la bouteille d'eau",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[0]": "Définit le nombre de bouteilles d'eau que le joueur peut stocker",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[1]": "Des valeurs plus élevées signifient que le joueur peut stocker plus de bouteilles d'eau",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[2]": "Avertissement 1: Cet effet n'est appliqué qu'après la reconnexion du joueur au monde",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[3]": "Avertissement 2: Cet effet est appliqué à tous les éléments portant le nom 'minecraft:potion', donc chaque bouteille de potion qui a des effets spéciaux sera affectée",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[4]": "Le Standard: 1",
+
+
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full": "Peut obtenir des aliments lorsque la barre de la faim est pleine",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[0]": "Définit si le joueur peut consommer des aliments qui réduisent la soif si la barre de la faim est pleine mais la barre de la soif ne l'est pas",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[1]": "Vrai signifie que le joueur pourra consommer des aliments qui réduisent la soif si la barre de la faim est pleine mais pas la barre de la soif",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[2]": "Le Standard: Réel",
+
+  "text.autoconfig.itsthirst.option.hydrating_drink_value": "Facteur boissons hydratantes",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[0]": "Combien de soif une boisson taguée avec #hydrating_drinks étanchera",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[1]": "Des valeurs plus élevées signifient que la boisson hydratante régénérera plus la soif",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[2]": "Le Standard:6",
+
+  "text.autoconfig.itsthirst.option.hydrating_food_value": "facteur de nourriture hydratante",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[0]": "Combien de soif une  nourriture marqué avec #hydrating_foods étanchera",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[1]": "Des valeurs plus élevées signifient que la nourriture hydratante régénérera plus la soif",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[2]": "Le Standard:2",
+
+  "text.autoconfig.itsthirst.option.hydrating_stew_value": "facteur de soupe hydratante",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[0]": "Combien de soif une soupe taguée avec #hydrating_stews étanchera",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[1]": "Des valeurs plus élevées signifient que la soupe hydratante régénérera plus de soif",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[2]": "Le Standard: 2",
+
+
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst": "Le Nether draine plus de soif",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[0]": "Fait en sorte que la barre de soif se vide plus rapidement lorsque le joueur est dans le Nether",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[1]": "Vrai signifie que la barre de soif sera drainée plus rapidement lorsque le joueur est dans le Nether ",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[2]": "Le Standard: Réel",
+
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value": "Facteur de drainage du Nether",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[0]": "Définit la vitesse à laquelle la barre de soif sera drainée lorsque le joueur est dans le Nether",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[1]": "Des valeurs plus élevées signifient que la barre de soif se videra plus rapidement.",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[2]": "Le standard: 1.10 (10%)",
+
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture": "Texture de la barre de soif du Nether",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[0]": "Définit la texture des gouttelettes d'eau lorsque le joueur est dans le Nether",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[1]": "1 signifie une texture de contour rouge, 2 signifie des gouttelettes d'eau brûlantes, 3 signifie aucune texture spéciale",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "Le Standard: 1",
+
+
+
+
+
+  "itsthirst.swallow_water_after_drink": "Avaler de l'eau",
+
+
+
+
+  "effect.itsthirst.thirst": "Soif"
+}

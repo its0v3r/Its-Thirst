@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "itsthirst",
+  "version": "${version}",
+  "name": "It's Thirst",
+  "description": "It's Thirst is a lightweight Thirst Mod that doesn't add new blocks or items and fits perfectly to Vanilla Minecraft without being annoying.",
+  "authors": [
+    "its0v3r"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/its0v3r/Its-Thirst"
+  },
+  "license": " GPL-3",
+  "icon": "assets/itsthirst/itsthirst_icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.its0v3r.ItsThirstMain"
+    ],
+    "client": [
+      "net.its0v3r.ItsThirstClient"
+    ],
+    "modmenu": [
+      "net.its0v3r.itsthirst.config.ModMenuIntegration"
+    ],
+    "preLaunch": [
+      "net.its0v3r.ItsThirstPreLaunch"
+    ]
+  },
+  "mixins": [
+    "itsthirst.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17",
+    "cloth-config2": ">=7.0.69"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

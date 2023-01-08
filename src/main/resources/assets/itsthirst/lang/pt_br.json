@@ -1,0 +1,163 @@
+{
+  "text.autoconfig.itsthirst.title": "Configurações do It's Thirst",
+  "text.autoconfig.itsthirst.category.general_settings": "Configurações Gerais",
+  "text.autoconfig.itsthirst.category.bad_water_settings": "Configurações Gerais da Água Ruim",
+  "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Configurações do Efeito de Sede da Água Ruim",
+  "text.autoconfig.itsthirst.category.stack_settings": "Configurações de Stack de Garrafas",
+  "text.autoconfig.itsthirst.category.food_and_drink_settings": "Configurações de Comidas e Bebidas Hidratantes",
+  "text.autoconfig.itsthirst.category.nether_settings": "Configurações do Nether",
+
+
+  "text.autoconfig.itsthirst.option.damage_from_thirst": "Dano da sede",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[0]": "Define o dano tomado a cada 4 segundos quando o player não tem pontos de sede",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[1]": "Valores maiores significam mais dano ao player",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[2]": "O padrão é: 1.0",
+
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed": "Velocidade de sede",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[0]": "Define o quão rápido o nível de sede diminuirá conforme o tempo",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[1]": "Valores maiores significam que demorará mais tempo para ficar com sede",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[2]": "O padrão é: 2.25",
+
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown": "Tempo de espera após beber água da fonte",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[0]": "Define em segundos o tempo de espera que o player precisa esperar para beber água após ter bebido água de uma fonte de água com o click direito do mouse",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[1]": "Valores maiores significam mais tempo de espera",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[2]": "O padrão é: 1 (1 segundo / 20 ticks)",
+
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown": "Tempo de espera após beber água da chuva",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[0]": "Define em segundos o tempo de espera que o player precisa esperar para beber água após ter bebido água da chuva com o click direito do mouse",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[1]": "Valores maiores significam mais tempo de espera",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[2]": "O padrão é: 4 (4 segundo / 80 ticks))",
+
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full": "Apenas regenerar vida caso a fome e sede estejam completas",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[0]": "Define se o player apenas regenera vida caso ambdas as barra de fome e sede estejam completas",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[1]": "Falso significa o comportamento normal do Minecraft, onde o player irá regenerar vida se a barra de fome estiver cheia, não há interferência da barra de sede",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[2]": "O padrão é: falso",
+
+
+  "text.autoconfig.itsthirst.option.bad_water": "Ativar a Água Ruim",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[0]": "Define se o player terá chance de beber água ruim de uma fonte de água ou chuva",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[1]": "Verdadeiro significa que há chance de beber água ruim de uma fonte de água ou chuva",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[2]": "O padrão é: verdadeiro",
+
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain": "Também aplica a chuva",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[0]": "Define se a chuva pode ter a chance de ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[1]": "Falso significa que a chuva nunca terá chance de ser pagua ruim",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[2]": "Default is: false",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance": "Chance de beber água ruim de uma fonte de água",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[0]": "Define a chance de água da fonte ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[1]": "Valores maiores significam mais chance da água da fonte ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[2]": "O padrão é 0.75 (75%)",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance": "Chance de beber água ruim da chuva",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[0]": "Define a chance da chuva ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[1]": "Valores maiores significam mais chance da chuva ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[2]": "O padrão é: 0.01 (1%)",
+
+
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration": "Duração do efeito de sede da água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[0]": "Define a duração do efeito de sede",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[1]": "Valores maiores significam que o efeito de sede demorará mais tempo",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[2]": "O padrão é: 30 (30 segundos / 600 ticks)",
+
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor": "Fator do efeito de sede da água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[0]": "Define o quanto de sede o efeito de sede irá drenar",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[1]": "Valores maiores significam que o efeito de sede irá drenar mais sede",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[2]": "O valor é baseado na conta do Minecraft de exaustão + amplificador",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[3]": "O padrão é: 0.05",
+
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect": "Nível de sede baixo aplica o efeito de pressa",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[0]": "Define se o player deve receber o efeito de pressa quando o nível de sede está baixo",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[1]": "Verdadeiro significa que se o nível de sede estiver baixo o efeito de pressa será aplicado ao player",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[2]": "O padrão é: verdadeiro",
+
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect": "Nível de sede mínimo para aplicar o efeito de pressa",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[0]": "Define o quão baixo o nível de sede precisa estar para o efeito de pressa ser aplicado",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[1]": "Valores maiores significam que o efeito de pressa será aplicado caso o player tenha mais nível de sede",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[2]": "O padrão é: 4",
+
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect": "Nível de sede baixo aplica o efeito de exaustão",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[0]": "Define se o player deve receber o efeito de exaustão quando o nível de sede está baixo",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[1]": "Verdadeiro significa que se o nível de sede estiver baixo o efeito de exaustão será aplicado ao player",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[2]": "O padrão é: verdadeiro",
+
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect": "Nível de sede mínimo para aplicar o efeito de exaustão",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[0]": "Define o quão baixo o nível de sede precisa estar para o efeito de exaustão ser aplicado",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[1]": "Valores maiores significam que o efeito de exaustão será aplicado caso o player tenha mais nível de sede",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[2]": "O padrão é: 2",
+
+
+  "text.autoconfig.itsthirst.option.can_stack_glass": "É possível stackar garrafas vazias",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[0]": "Define se o player pode stackar mais do que uma garrafa vazia",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[1]": "Falso significa o comportamento normal do Minecraft, onde o player não pode stackar mais que 1 garrafa vazia",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[2]": "Aviso 1: este efeito só é aplicado após o player reconectar ao mundo",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[3]": "O padrão é: falso",
+
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor": "Fator de stackar garrafas vazias",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[0]": "Define quantas garrafas vazias o player pode stackar",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[1]": "Valores maiores significam que o player pode stackar mais garrafas vazias",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[2]": "Aviso 1: este efeito só é aplicado após o player reconectar ao mundo",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[3]": "O padrão é: 1",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion": "É possível stackar garrafas de água",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[0]": "Define se o player pode stackar mais do que uma garrafa de água",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[1]": "Falso significa o comportamento normal do Minecraft, onde o player não pode stackar mais que 1 garrafa de água",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[2]": "Aviso 1: este efeito só é aplicado após o player reconectar ao mundo",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[3]": "Aviso 2: este efeito é aplicado a todos os items com o nome 'minecraft:potion', portanto, toda garrafa de poção que possui efeitos especiais será afetada",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[4]": "O padrão é: falso",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor": "Fator de stackar garrafas de água",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[0]": "Define quantas garrafas de água o player pode stackar",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[1]": "Valores maiores significam que o player pode stackar mais garrafas de água",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[2]": "Aviso 1: este efeito só é aplicado após o player reconectar ao mundo",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[3]": "Aviso 2: este efeito é aplicado a todos os items com o nome 'minecraft:potion', portanto, toda garrafa de poção que possui efeitos especiais será afetada",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[4]": "O padrão é: 1",
+
+
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full": "Pode conseguir itens de comida quando a barra de fome está cheia",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[0]": "Define se o player pode consumir itens de comida que diminuem a sede caso a barra de fome esteja cheia mas a de sede não esteja",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[1]": "Verdadeiro significa que o player poderá consumir itens de comida que diminuem a sede caso a barra de fome esteja cheia mas a de sede não esteja",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[2]": "O padrão é: verdadeiro",
+
+  "text.autoconfig.itsthirst.option.hydrating_drink_value": "Fator de bebidas hidratantes",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[0]": "Quanta sede um drink com a tag #hydrating_drinks irá recuperar",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[1]": "Valores maiores significam que a bebida hidratante irá regenerar mais sede",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[2]": "O padrão é: 6",
+
+  "text.autoconfig.itsthirst.option.hydrating_food_value": "Fator de comida hidratante",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[0]": "Quanta sede uma comida com a tag #hydrating_foods irá recuperar",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[1]": "Valores maiores significam que a comida hidratante irá regenerar mais sede",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[2]": "O padrão é: 2",
+
+  "text.autoconfig.itsthirst.option.hydrating_stew_value": "Fator de sopa hidratante",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[0]": "Quanta sede uma sopa com a tag #hydrating_stews irá recuperar",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[1]": "Valores maiores significam que a sopa hidratante irá regenerar mais sede",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[2]": "O padrão é: 2",
+
+
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst": "O Nether drena mais sede",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[0]": "Faz com que a barra de sede seja drenada mais rápido quando player está no Nether ",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[1]": "Verdadeiro signifgica que a barra de sede será drenada mais rápido quando o player estiver no Nether ",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[2]": "O padrão é: verdaeiro",
+
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value": "Fator de dreno do Nether",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[0]": "Define o quão mais rápido a barra de sede irá ser drenada quando o player estiver no Nether",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[1]": "Valores maiores significam que a barra de sede será drenada mais rápido",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[2]": "O padrão é: 1.10 (10%)",
+
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture": "Textura da barra de sede no Nether",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[0]": "Define a texture da barra de sede quando o player está no Nether",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[1]": "1 é a textura com contorno vermelho, 2 é a textura com as gotas flamejantes, 3 não aplica nenhuma textura diferente",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "O padrão é: 1",
+
+
+
+
+
+  "itsthirst.swallow_water_after_drink": "Engoliu água",
+
+
+
+
+  "effect.itsthirst.thirst": "Sede"
+}

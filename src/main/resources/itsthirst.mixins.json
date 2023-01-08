@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.its0v3r.itsthirst.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "HoneyBottleItemMixin",
+    "HungerManagerMixin",
+    "ItemMixin",
+    "MilkBucketItemMixin",
+    "PlayerEntityMixin",
+    "PlayerManagerMixin",
+    "PotionItemMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "ClientPlayerEntityMixin",
+    "InGameHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "swallow_water_after_drink": {
+    "subtitle": "itsthirst.swallow_water_after_drink",
+    "sounds": [
+      "itsthirst:swallow_water_after_drink"
+    ]
+  },
+  "placeholder_sound": {
+    "subtitle": "itsthirst.placeholder_sound",
+    "sounds": [
+      "itsthirst:placeholder_sound"
+    ]
+  }
+}

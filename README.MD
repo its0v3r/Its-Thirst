@@ -39,6 +39,10 @@ A: If depends on me, no. I'm not familiar with Forge and I don't have enough fre
 - Fabric API: https://www.curseforge.com/minecraft/mc-mods/fabric-api
 - Cloth Config: https://www.curseforge.com/minecraft/mc-mods/cloth-config
 
+## 📶 Links
+- Modrinth: https://modrinth.com/mod/its-thirst
+- CurseForge: https://www.curseforge.com/minecraft/mc-mods/its-thirst
+
 ## 🔊 Discord
 - Join my Minecraft Modding Community Discord server: https://discord.gg/ThNZAVN2
 

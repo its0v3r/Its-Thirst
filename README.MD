@@ -19,7 +19,7 @@ It's Thirst is a lightweight Thirst Mod that doesn't add new blocks or items and
 - Drinking water bottles restores thirst points;
 - Eating hydrating foods restores thirst points; 
 - Short cooldown after drinking water (tweakable); 
-- Water can be bad water, that apllies a thirst negative effect (tweakable); 
+- Water can be bad water, that applies a thirst negative effect (tweakable);
 - Only regen health if the hunger bar and the thirst bar are full (tweakable); 
 - Make empty bottles and water bottles stack from 1 to 64 (tweakable); 
 - Allow the player to eat hydrating food even when the hunger bar is full (tweakable); 

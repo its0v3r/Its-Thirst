@@ -152,6 +152,17 @@
   "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "Le Standard: 1",
 
 
+  "text.autoconfig.itsthirst.option.hud_x": "Position X de la barre de soif",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[0]": "Définit la position sur l'axe X de la barre de soif",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Des valeurs plus grandes signifient que la barre de soif se déplacera vers la droite",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "Le Standard: 0",
+
+  "text.autoconfig.itsthirst.option.hud_y": "Position Y de la barre de soif",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[0]": "Définit la position sur l'axe Y de la barre de soif",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[1]": "Des valeurs plus élevées signifient que la barre de soif descendra",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[2]": "Le Standard: 0",
+
+
 
 
 

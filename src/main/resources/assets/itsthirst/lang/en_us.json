@@ -6,6 +6,7 @@
   "text.autoconfig.itsthirst.category.stack_settings": "Stack Bottles Settings",
   "text.autoconfig.itsthirst.category.food_and_drink_settings": "Food and Drink Settings",
   "text.autoconfig.itsthirst.category.nether_settings": "Nether Settings",
+  "text.autoconfig.itsthirst.category.hud_position_settings": "HUD Position Settings",
 
 
   "text.autoconfig.itsthirst.option.damage_from_thirst": "Damage from empty thirst",
@@ -149,6 +150,17 @@
   "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[0]": "Defines the texture of the thirst bar when the player is in the Nether",
   "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[1]": "1 means the red outline texture, 2 means the firy water dropplets, 3 means no special texture",
   "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "Default is: 1",
+
+
+  "text.autoconfig.itsthirst.option.hud_x": "Thirst Bar X position",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[0]": "Defines the position in the X axis of the thirst bar",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Bigger values means the thirst bar will move to the right",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "Default is: 0",
+
+  "text.autoconfig.itsthirst.option.hud_y": "Thirst Bar Y position",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[0]": "Defines the position in the Y axis of the thirst bar",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[1]": "Bigger values means the thirst bar will move to the down",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[2]": "Default is: 0",
 
 
 

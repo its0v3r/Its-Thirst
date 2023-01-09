@@ -61,8 +61,8 @@ public class ThirstHud {
             for (int i = 0; i < 10; i++) {
                 bounceFactor = getBounceFactor(playerEntity, ticks, thirstManager);
                 DrawableHelper.drawTexture(matrixStack,
-                        width + 82 - (i * 9) + i,
-                        height - 49 + bounceFactor,
+                        (width + 82 - (i * 9) + i) + ConfigRegistry.CONFIG.hud_x,
+                        (height - 49 + bounceFactor) + ConfigRegistry.CONFIG.hud_y,
                         0 + netherYFactor,
                         0,
                         9,
@@ -77,8 +77,8 @@ public class ThirstHud {
                     if (((thirstValue + 1) / 2) > i) {
                         bounceFactor = getBounceFactor(playerEntity, ticks, thirstManager);
                         DrawableHelper.drawTexture(matrixStack,
-                                width + 82 - (i * 9) + i,
-                                height - 49 + bounceFactor,
+                                (width + 82 - (i * 9) + i) + ConfigRegistry.CONFIG.hud_x,
+                                (height - 49 + bounceFactor)+ ConfigRegistry.CONFIG.hud_y,
                                 9 + thirstEffectFactor + netherXFactor,
                                 9,
                                 9,
@@ -97,8 +97,8 @@ public class ThirstHud {
                     if ((thirstValue / 2) > i) {
                         bounceFactor = getBounceFactor(playerEntity, ticks, thirstManager);
                         DrawableHelper.drawTexture(matrixStack,
-                                width + 82 - (i * 9) + i,
-                                height - 49 + bounceFactor,
+                                (width + 82 - (i * 9) + i) + ConfigRegistry.CONFIG.hud_x,
+                                (height - 49 + bounceFactor) + ConfigRegistry.CONFIG.hud_y,
                                 0 + thirstEffectFactor + netherXFactor,
                                 9,
                                 9,

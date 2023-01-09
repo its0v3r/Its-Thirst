@@ -151,6 +151,15 @@
   "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "O padrão é: 1",
 
 
+  "text.autoconfig.itsthirst.option.hud_x": "Posição X da barra de sede",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[0]": "Define a posição no eixo X para a barra de sede",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Valores maiores significam que a barra de sede irá se mover para a direita",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "O padrão é: 0",
+
+  "text.autoconfig.itsthirst.option.hud_x": "Posição Y da barra de sede",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[0]": "Define a posição no eixo Y para a barra de sede",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Valores maiores significam que a barra de sede irá se mover para baixo",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "O padrão é: 0",
 
 
 

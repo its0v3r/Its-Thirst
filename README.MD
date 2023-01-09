@@ -24,7 +24,7 @@ It's Thirst is a lightweight Thirst Mod that doesn't add new blocks or items and
 - Make empty bottles and water bottles stack from 1 to 64 (tweakable); 
 - Allow the player to eat hydrating food even when the hunger bar is full (tweakable); 
 - Thirst points drain faster in nether (tweakable);
-- Change the thirst bar X and Y position;
+- Change the thirst bar X and Y position.
 
 ## 📝 Frequently Asked Questions
 **Q: Can I use this mod in my modpack or make videos about it?**

@@ -11,7 +11,7 @@
 It's Thirst is a lightweight Thirst Mod that doesn't add new blocks or items and fits perfectly to Vanilla Minecraft without being annoying. The mod is fully configurable, so you can tweak any feature and value that you want.
 
 ## 📷 Media
-Media here
+![It's Thirst](https://www.youtube.com/watch?v=HgN4FYMuc2Q)
 
 ## 🌟 Features
 - No addition of new items or blocks; 

@@ -6,6 +6,8 @@
   "text.autoconfig.itsthirst.category.stack_settings": "Paramètres de pilles de bouteilles",
   "text.autoconfig.itsthirst.category.food_and_drink_settings": "Paramètres d'hydratation des aliments et des boissons",
   "text.autoconfig.itsthirst.category.nether_settings": "Paramètres de Nether",
+  "text.autoconfig.itsthirst.category.hud_position_settings": "Paramètres de position du HUD",
+
 
 
   "text.autoconfig.itsthirst.option.damage_from_thirst": "Dégâts de Soif",

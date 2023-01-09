@@ -142,4 +142,14 @@ public class VanillaThirstConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip(count = 3)
     @ConfigEntry.BoundedDiscrete(min = 1, max = 3)
     public int nether_thirst_bar_texture = 1;
+
+    // Hud X
+    @ConfigEntry.Category("hud_position_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public int hud_x = 0;
+
+    // Hud X
+    @ConfigEntry.Category("hud_position_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public int hud_y = 0;
 }

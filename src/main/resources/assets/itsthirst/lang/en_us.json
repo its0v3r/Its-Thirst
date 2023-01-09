@@ -151,6 +151,17 @@
   "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "Default is: 1",
 
 
+  "text.autoconfig.itsthirst.option.hud_x": "Thirst Bar X position",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[0]": "Defines the position in the X axis of the thirst bar",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Bigger values means the thirst bar will move to the right",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "Default is: 0",
+
+  "text.autoconfig.itsthirst.option.hud_y": "Thirst Bar Y position",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[0]": "Defines the position in the Y axis of the thirst bar",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[1]": "Bigger values means the thirst bar will move to the down",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[2]": "Default is: 0",
+
+
 
 
 

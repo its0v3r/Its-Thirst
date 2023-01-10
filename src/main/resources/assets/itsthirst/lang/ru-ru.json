@@ -1,0 +1,175 @@
+{
+  "text.autoconfig.itsthirst.title": "Конфигурация Thirst",
+  "text.autoconfig.itsthirst.category.general_settings": "Общие настройки",
+  "text.autoconfig.itsthirst.category.bad_water_settings": "Плохая вода",
+  "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Эффект от плохой воды",
+  "text.autoconfig.itsthirst.category.stack_settings": "Стаки бутылок",
+  "text.autoconfig.itsthirst.category.food_and_drink_settings": "Еда и напитки",
+  "text.autoconfig.itsthirst.category.nether_settings": "Нижний мир",
+  "text.autoconfig.itsthirst.category.hud_position_settings": "Расположение HUD",
+
+
+  "text.autoconfig.itsthirst.option.damage_from_thirst": "Урон от пустой жажды",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[0]": "Определяет урон, получаемый каждые 4 секунды",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[1]": "Большие значения означают больший урон, наносимый игроку",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[2]": "По умолчанию: 1.0",
+
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed": "Скорость жажды",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[0]": "Определяет, как быстро будет снижаться уровень жажды",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[1]": "Большие значения означают, что для снижения жажды потребуется больше времени",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[2]": "По умолчанию: 2.25",
+
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown": "Перезарядка источника воды после питья",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[0]": "Определяет в секундах время перезарядки, которое игроку нужно подождать, чтобы попить после того, как он выпьет воду из источника воды с помощью щелчка ПКМ",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[1]": "Большие значения означают большее время перезарядки",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[2]": "По умолчанию: 1 (1 секунда / 20 тиков)",
+
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown": "Перезарядка дождя после питья",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[0]": "Определяет в секундах время перезарядки, которое игроку нужно подождать, чтобы попить после того, как он выпил воду дождя щелчком ПКМ",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[1]": "Большие значения означают большее время перезарядки",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[2]": "По умолчанию: 4 (4 секунды / 80 тиков)",
+
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full": "Восстанавливать здоровье только если панели голода и жажды заполнены.",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[0]": "Определяет, будет ли игрок восстанавливать здоровье только если панели голода и жажды заполнены.",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[1]": "False означает обычное поведение Minecraft, при котором игрок восстанавливает здоровье, когда панель голода заполнена, панели жажды не мешает.",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[2]": "По умолчанию: false",
+
+
+  "text.autoconfig.itsthirst.option.bad_water": "Включить плохую воду",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[0]": "Определяет, может ли игрок пить плохую воду, щёлкнув ПКМ по источнику воды или дождю.",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[1]": "True означает, что существует вероятность того, что вода которую пил игрок, будет плохой",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[2]": "По умолчанию: true",
+
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain": "Относится к дождю",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[0]": "Определяет, может ли дождь быть плохой водой",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[1]": "False означает, что дождь никогда не будет плохой водой",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[2]": "По умолчанию: false",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance": "Шанс плохой воды из источника",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[0]": "Определяет вероятность того, что источник воды окажется плохой водой",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[1]": "Большие значения означают большую вероятность того, что источник воды окажется плохой водой",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[2]": "По умолчанию: 0.75 (75%)",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance": "Шанс плохой воды из дождя",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[0]": "Определяет вероятность того, что дождь будет плохой водой",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[1]": "Большие значения означают большую вероятность того, что дождь будет плохой водой",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[2]": "По умолчанию: 0.01",
+
+
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration": "Длительность эффекта жажды от плохой воды",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[0]": "Определяет продолжительность эффекта жажды",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[1]": "Большие значения означают, что эффект жажды будет длиться дольше",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[2]": "По умолчанию: 30 (30 секунд / 600 тиков)",
+
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor": "Множитель эффекта жажды от плохой воды",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[0]": "Определяет, сколько жажды игрока будет истощать эффект жажды",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[1]": "Большие значения означают, что эффект жажды истощит больше жажды",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[2]": "Значение основано на истощении Minecraft + множитель",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[3]": "По умолчанию: 0.05",
+
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect": "Накладывать эффект ускорения при низком уровне жажды",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[0]": "Определяет, должен ли игрок получать эффект ускорения, когда уровень жажды низкий.",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[1]": "True означает, что если уровень жажды низкий, к игроку будет применен эффект ускорения.",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[2]": "По умолчанию: true",
+
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect": "Минимальный уровень жажды для применения эффекта ускорения",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[0]": "Определяет, насколько низким должен быть уровень жажды для применения эффекта ускорения.",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[1]": "Больше означает, что эффект ускорения будет применяться, если у игрока уровень жажды выше.",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[2]": "По умолчанию: 4",
+
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect": "Накладывать эффект усталости при низком уровне жажды",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[0]": "Определяет, должен ли игрок получать эффект усталости, когда уровень жажды низкий.",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[1]": "True означает, что если уровень жажды низкий, то к игроку будет применен эффект усталости.",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[2]": "По умолчанию: true",
+
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect": "Минимальный уровень жажды для применения эффекта усталости.",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[0]": "Определяет, насколько низким должен быть уровень жажды, чтобы применялся эффект усталости.",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[1]": "Большие значения означают, что эффект усталости будет применяться, если у игрока уровень жажды выше.",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[2]": "По умолчанию: 2",
+
+
+  "text.autoconfig.itsthirst.option.can_stack_glass": "Можно стакать пустые бутылки",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[0]": "Определяет, может ли игрок стакать более 1 пустой бутылки",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[1]": "False означает нормальное поведение Minecraft, когда игрок не может стакать более 1 пустой бутылки.",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[2]": "Внимание: изменение применится только после переподключения к миру",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[3]": "По умолчанию: false",
+
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor": "Размер стака пустых бутылок",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[0]": "Определяет количество пустых бутылок, которые игрок сможет стакать",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[1]": "Большие числа означают, что игрок может стакать больше пустых бутылок",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[2]": "Внимание: изменение применится только после переподключения к миру",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[3]": "По умолчанию: 1",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion": "Можно стакать бутылки с водой",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[0]": "Определяет, может ли игрок стакать более 1 бутылки с водой",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[1]": "False означает нормальное поведение Minecraft, когда игрок не может стакать более 1 бутылки с водой.",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[2]": "Внимания 1: изменение применится только после переподключения к миру",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[3]": "Внимание 2: эффект будет применяться ко всем предметам с названием «minecraft:potion», так что будет затронута каждая бутылка с особыми эффектами",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[4]": "По умолчанию: false",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor": "Размер стака бутылок с водой",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[0]": "Определяет, сколько бутылок с водой игрок может стакать",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[1]": "Большие числа означают, что игрок может стакать больше бутылок с водой",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[2]": "Внимание 1: изменение применится только после переподключения к миру",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[3]": "Внимание 2: эффект будет применяться ко всем предметам с названием «minecraft:potion», так что будет затронута каждая бутылка с особыми эффектами",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[4]": "По умолчанию: 1",
+
+
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full": "Разрешить есть еду, когда панель жажды не заполнена",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[0]": "Определяет, может ли игрок есть продукты, которые уменьшают жажду, если панель голода заполнена, но панель жажды нет",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[1]": "True означает, что игрок сможет есть продукты, которые уменьшают жажду, даже если панель голода заполнена, а панель жажды нет",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[2]": "По умолчанию: true",
+
+  "text.autoconfig.itsthirst.option.hydrating_drink_value": "Множитель утоления от напитков",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[0]": "Сколько жажды утолит напиток, помеченный #hydrating_drinks",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[1]": "Большие значения означают, что утоляющий напиток утолит больше жажды",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[2]": "По умолчанию: 6",
+
+  "text.autoconfig.itsthirst.option.hydrating_food_value": "Множитель утоления от еды",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[0]": "Сколько жажды утолит еда, помеченная #hydrating_foods",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[1]": "Большие значения означают, что утолающая еда утолит больше жажды",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[2]": "По умолчанию: 2",
+
+  "text.autoconfig.itsthirst.option.hydrating_stew_value": "Множитель утоления от рагу",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[0]": "Сколько жажды утолит рагу, помеченное #hydrating_stews",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[1]": "Большие значения означают, что утоляющее рагу утолит больше жажды",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[2]": "По умолчанию: 2",
+
+
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst": "Жажда истощается  быстрее в Нижнем мире",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[0]": "Панель жажды уменьшается быстрее, когда игрок находится в Нижнем мире",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[1]": "True означает, что панель жажды будет уменьшаться быстрее, когда игрок находится в Нижнем мире.",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[2]": "По умолчанию: true",
+
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value": "Множитель истощения жажды в нижнем мире",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[0]": "Определяет, насколько быстрее будет уменьшаться панель жажды, если игрок включил параметр «Нижний мир истощает больше жажды».",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[1]": "Большие значения означают, что панель жажды будет истощаться быстрее.",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[2]": "По умолчанию: 1.10 (10%)",
+
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture": "Текстура панели жажды в Нижнем мире",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[0]": "Определяет текстуру панели жажды, когда игрок находится в Нижнем мире.",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[1]": "1 означает красную текстуру контура, 2 означает огненные капли воды, 3 означает отсутствие специальной текстуры",
+  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "По умолчанию: 1",
+
+
+  "text.autoconfig.itsthirst.option.hud_x": "X-позиция панели жажды",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[0]": "Определяет положение по оси X панели жажды",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Большие значения означают, что панель жажды будет двигаться вправо.",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "По умолчанию: 0",
+
+  "text.autoconfig.itsthirst.option.hud_y": "Y-позиция панели жажды",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[0]": "Определяет положение по оси Y панели жажды",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[1]": "Большие значения означают, что панель жажды будет двигаться вниз.",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[2]": "По умолчанию: 0",
+
+
+
+
+
+  "itsthirst.swallow_water_after_drink": "Проглоченная вода",
+
+
+
+
+  "effect.itsthirst.thirst": "Thirst"
+}

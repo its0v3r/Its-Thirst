@@ -1,12 +1,12 @@
 {
   "text.autoconfig.itsthirst.title": "Configurações do It's Thirst",
-  "text.autoconfig.itsthirst.category.general_settings": "Configurações Gerais",
-  "text.autoconfig.itsthirst.category.bad_water_settings": "Configurações Gerais da Água Ruim",
-  "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Configurações do Efeito de Sede da Água Ruim",
-  "text.autoconfig.itsthirst.category.stack_settings": "Configurações de Stack de Garrafas",
-  "text.autoconfig.itsthirst.category.food_and_drink_settings": "Configurações de Comidas e Bebidas Hidratantes",
-  "text.autoconfig.itsthirst.category.biome_and_nether_settings": "Configurações de Biomas Quentes e do Nether",
-  "text.autoconfig.itsthirst.category.hud_position_settings": "Configurações de Posição do HUD",
+  "text.autoconfig.itsthirst.category.general_settings": "Geral",
+  "text.autoconfig.itsthirst.category.bad_water_settings": "Água Ruim",
+  "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Efeito de Sede da Água Ruim",
+  "text.autoconfig.itsthirst.category.stack_settings": "Stack de Garrafas",
+  "text.autoconfig.itsthirst.category.food_and_drink_settings": "Comidas e Bebidas Hidratantes",
+  "text.autoconfig.itsthirst.category.biome_and_nether_settings": "Biomas Quentes e Nether",
+  "text.autoconfig.itsthirst.category.hud_position_settings": "Posição do HUD",
 
 
   "text.autoconfig.itsthirst.option.damage_from_thirst": "Dano da sede",

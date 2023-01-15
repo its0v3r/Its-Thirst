@@ -14,17 +14,26 @@ It's Thirst is a lightweight Thirst Mod that doesn't add new blocks or items and
 [Watch the official mod showcase](https://www.youtube.com/watch?v=HgN4FYMuc2Q)
 
 ## 🌟 Features
-- No addition of new items or blocks; 
+- No addition of new items or blocks;
 - Drink water from water blocks or rain;
 - Drinking water bottles restores thirst points;
-- Eating hydrating foods restores thirst points; 
-- Short cooldown after drinking water (tweakable); 
+- Eating hydrating foods restores thirst points;
+- Short cooldown after drinking water (tweakable);
 - Water can be bad water, that applies a thirst negative effect (tweakable);
-- Only regen health if the hunger bar and the thirst bar are full (tweakable); 
-- Make empty bottles and water bottles stack from 1 to 64 (tweakable); 
-- Allow the player to eat hydrating food even when the hunger bar is full (tweakable); 
+- Only regen health if the hunger bar and the thirst bar are full (tweakable);
+- Make empty bottles and water bottles stack from 1 to 64 (tweakable);
+- Allow the player to eat hydrating food even when the hunger bar is full (tweakable);
 - Thirst points drain faster in nether (tweakable);
-- Change the thirst bar X and Y position.
+- Thirst bar changes texture in the Nether or in Hot Biomes (Hot Biomes 1.1.0+, tweakable);
+- Change the thirst bar X and Y position;
+- Drink water from cauldrons (1.1.0+);
+- Hot biomes will make the thirst bar drain faster (1.1.0+, tweakable).
+
+## 🌎 Available Languages
+- English (US) - by its0v3r
+- Português (Brasil) - by its0v3r
+- Français (Europe) - by Amadinha
+- Русский (Россия) - by vanja-san
 
 ## 📝 Frequently Asked Questions
 **Q: Can I use this mod in my modpack or make videos about it?**

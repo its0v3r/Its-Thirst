@@ -1,12 +1,12 @@
 {
   "text.autoconfig.itsthirst.title": "Simple Thirst Config",
-  "text.autoconfig.itsthirst.category.general_settings": "General Settings",
-  "text.autoconfig.itsthirst.category.bad_water_settings": "Bad Water General Settings",
-  "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Bad Water Thirst Effect Settings",
-  "text.autoconfig.itsthirst.category.stack_settings": "Stack Bottles Settings",
-  "text.autoconfig.itsthirst.category.food_and_drink_settings": "Food and Drink Settings",
-  "text.autoconfig.itsthirst.category.biome_and_nether_settings": "Hot Biomes and Nether Settings",
-  "text.autoconfig.itsthirst.category.hud_position_settings": "HUD Position Settings",
+  "text.autoconfig.itsthirst.category.general_settings": "General",
+  "text.autoconfig.itsthirst.category.bad_water_settings": "Bad Water",
+  "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Bad Water Thirst Effect",
+  "text.autoconfig.itsthirst.category.stack_settings": "Stack Bottles",
+  "text.autoconfig.itsthirst.category.food_and_drink_settings": "Food and Drink",
+  "text.autoconfig.itsthirst.category.biome_and_nether_settings": "Hot Biomes and Nether",
+  "text.autoconfig.itsthirst.category.hud_position_settings": "HUD Position",
 
 
   "text.autoconfig.itsthirst.option.damage_from_thirst": "Damage from empty thirst",

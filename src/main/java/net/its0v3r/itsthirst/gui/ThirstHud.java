@@ -14,6 +14,7 @@ import net.minecraft.client.gui.DrawableHelper;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.world.World;
 
 @Environment(EnvType.CLIENT)
@@ -37,14 +38,14 @@ public class ThirstHud {
             // Get the thirstValue
             int thirstValue = thirstManager.getThirstLevel();
 
-            // If the player currently is in Nether
-            int netherXFactor = 0;
-            int netherYFactor = 0;
-            if (playerEntity.world.getRegistryKey() == World.NETHER && ConfigRegistry.CONFIG.nether_drains_more_thirst) {
-                if (ConfigRegistry.CONFIG.nether_thirst_bar_texture == 1) {
-                    netherYFactor = 9;
-                } else if (ConfigRegistry.CONFIG.nether_thirst_bar_texture == 2) {
-                    netherXFactor = 36;
+            // If the player currently is in a hot biome for enough time or in The Nether
+            int hotXFactor = 0;
+            int hotYFactor = 0;
+            if (playerEntity.world.getRegistryKey() == World.NETHER && ConfigRegistry.CONFIG.nether_drains_more_thirst || thirstManager.getIsInHotBiomeForEnoughtTime()) {
+                if (ConfigRegistry.CONFIG.hot_thirst_bar_texture == 1) {
+                    hotYFactor = 9;
+                } else if (ConfigRegistry.CONFIG.hot_thirst_bar_texture == 2) {
+                    hotXFactor = 36;
                 }
             }
 
@@ -52,7 +53,7 @@ public class ThirstHud {
             int thirstEffectFactor = 0;
             if (playerEntity.hasStatusEffect(EffectRegistry.THIRST)) {
                 thirstEffectFactor = 18;
-                netherXFactor = 0;
+                hotXFactor = 0;
             }
 
 
@@ -63,7 +64,7 @@ public class ThirstHud {
                 DrawableHelper.drawTexture(matrixStack,
                         (width + 82 - (i * 9) + i) + ConfigRegistry.CONFIG.hud_x,
                         (height - 49 + bounceFactor) + ConfigRegistry.CONFIG.hud_y,
-                        0 + netherYFactor,
+                        0 + hotYFactor,
                         0,
                         9,
                         9,
@@ -78,8 +79,8 @@ public class ThirstHud {
                         bounceFactor = getBounceFactor(playerEntity, ticks, thirstManager);
                         DrawableHelper.drawTexture(matrixStack,
                                 (width + 82 - (i * 9) + i) + ConfigRegistry.CONFIG.hud_x,
-                                (height - 49 + bounceFactor)+ ConfigRegistry.CONFIG.hud_y,
-                                9 + thirstEffectFactor + netherXFactor,
+                                (height - 49 + bounceFactor) + ConfigRegistry.CONFIG.hud_y,
+                                9 + thirstEffectFactor + hotXFactor,
                                 9,
                                 9,
                                 9,
@@ -99,7 +100,7 @@ public class ThirstHud {
                         DrawableHelper.drawTexture(matrixStack,
                                 (width + 82 - (i * 9) + i) + ConfigRegistry.CONFIG.hud_x,
                                 (height - 49 + bounceFactor) + ConfigRegistry.CONFIG.hud_y,
-                                0 + thirstEffectFactor + netherXFactor,
+                                0 + thirstEffectFactor + hotXFactor,
                                 9,
                                 9,
                                 9,

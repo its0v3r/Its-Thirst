@@ -29,10 +29,12 @@ public abstract class ItemMixin implements ItemMaxCount {
     @Shadow
     private int maxCount;
 
+
     @Override
     public void setMaxCount(int value) {
         this.maxCount = value;
     }
+
 
     // After eating or drinking an item
     @Inject(method = "finishUsing", at = @At(value = "HEAD"))
@@ -54,7 +56,8 @@ public abstract class ItemMixin implements ItemMaxCount {
         }
     }
 
-    // use
+
+    // Check if the player can consume hydrating items when the hunger bar is full but the thirst bar isn't
     @Inject(method = "use", at = @At(value = "INVOKE", target = "Lnet/minecraft/util/TypedActionResult;fail(Ljava/lang/Object;)Lnet/minecraft/util/TypedActionResult;", ordinal = 0, shift = At.Shift.BEFORE), cancellable = true)
     private void vanillaThirst$canEatIfThirstBarNotFull(World world, PlayerEntity user, Hand hand, CallbackInfoReturnable<TypedActionResult<ItemStack>> cir) {
         ThirstManager thirstManager = ((ThirstManagerAccess) user).getThirstManager();

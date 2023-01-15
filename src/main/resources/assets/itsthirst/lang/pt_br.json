@@ -5,7 +5,7 @@
   "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Configurações do Efeito de Sede da Água Ruim",
   "text.autoconfig.itsthirst.category.stack_settings": "Configurações de Stack de Garrafas",
   "text.autoconfig.itsthirst.category.food_and_drink_settings": "Configurações de Comidas e Bebidas Hidratantes",
-  "text.autoconfig.itsthirst.category.nether_settings": "Configurações do Nether",
+  "text.autoconfig.itsthirst.category.biome_and_nether_settings": "Configurações de Biomas Quentes e do Nether",
   "text.autoconfig.itsthirst.category.hud_position_settings": "Configurações de Posição do HUD",
 
 
@@ -24,10 +24,30 @@
   "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[1]": "Valores maiores significam mais tempo de espera",
   "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[2]": "O padrão é: 1 (1 segundo / 20 ticks)",
 
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor": "Quantidade de sede que água da fonte recupera",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[0]": "Define o quanto de sede beber água de uma fonte de água irá recuperar",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[1]": "Valores maiores significam que beber água de uma fonte de água irá recuperar mais sede",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[2]": "O padrão é: 1",
+
   "text.autoconfig.itsthirst.option.drank_from_rain_cooldown": "Tempo de espera após beber água da chuva",
   "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[0]": "Define em segundos o tempo de espera que o player precisa esperar para beber água após ter bebido água da chuva com o click direito do mouse",
   "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[1]": "Valores maiores significam mais tempo de espera",
-  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[2]": "O padrão é: 4 (4 segundo / 80 ticks))",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[2]": "O padrão é: 4 (4 segundos / 80 ticks))",
+
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor": "Quantidade de sede que água da chuva recupera",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[0]": "Define o quanto de sede beber água da chuva irá recuperar",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[1]": "Valores maiores significam que beber água da chuva irá recuperar mais sede",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[2]": "O padrão é: 1",
+
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown": "Tempo de espera após beber água do caldeirão",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[0]": "Define em segundos o tempo de espera que o player precisa esperar para beber água após ter bebido água de um caldeirão com o click direito do mouse",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[1]": "Valores maiores significam mais tempo de espera",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[2]": "O padrão é: 1 (1 segundo / 80 ticks))",
+
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor": "Quantidade de sede que água da do caldeirão recupera",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[0]": "Define o quanto de sede beber água de um caldeirão irá recuperar",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[1]": "Valores maiores significam que beber água de um caldeirão irá recuperar mais sede",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[2]": "O padrão é: 1",
 
   "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full": "Apenas regenerar vida caso a fome e sede estejam completas",
   "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[0]": "Define se o player apenas regenera vida caso ambdas as barra de fome e sede estejam completas",
@@ -40,20 +60,35 @@
   "text.autoconfig.itsthirst.option.bad_water.@Tooltip[1]": "Verdadeiro significa que há chance de beber água ruim de uma fonte de água ou chuva",
   "text.autoconfig.itsthirst.option.bad_water.@Tooltip[2]": "O padrão é: verdadeiro",
 
-  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain": "Também aplica a chuva",
-  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[0]": "Define se a chuva pode ter a chance de ser água ruim",
-  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[1]": "Falso significa que a chuva nunca terá chance de ser pagua ruim",
-  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[2]": "Default is: false",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source": "Aplica para fonte de água",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[0]": "Define se a chuva pode ter a chance de ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[1]": "Verdadeiro significa que a água da fonte possui chance de ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[2]": "O padrão é: verdadeiro",
 
   "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance": "Chance de beber água ruim de uma fonte de água",
   "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[0]": "Define a chance de água da fonte ser água ruim",
   "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[1]": "Valores maiores significam mais chance da água da fonte ser água ruim",
   "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[2]": "O padrão é 0.75 (75%)",
 
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain": "Aplica a chuva",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[0]": "Define se a chuva pode ter a chance de ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[1]": "Falso significa que a chuva nunca terá chance de ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[2]": "O padrão é: falso",
+
   "text.autoconfig.itsthirst.option.bad_water_from_rain_chance": "Chance de beber água ruim da chuva",
   "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[0]": "Define a chance da chuva ser água ruim",
   "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[1]": "Valores maiores significam mais chance da chuva ser água ruim",
   "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[2]": "O padrão é: 0.01 (1%)",
+
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron": "Aplica ao caldeirão",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[0]": "Define se um caldeirão pode ter a chance de ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[1]": "Falso significa que água de caldeirão nunca terá chance de ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[2]": "o padrão é: falso",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance": "Chance de beber água ruim de um caldeirão",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[0]": "Define a chance da água de um caldeirão ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[1]": "Valores maiores significam mais chance da água de um caldeirão ser água ruim",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[2]": "O padrão é: 0.01 (1%)",
 
 
   "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration": "Duração do efeito de sede da água ruim",
@@ -135,10 +170,19 @@
   "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[1]": "Valores maiores significam que a sopa hidratante irá regenerar mais sede",
   "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[2]": "O padrão é: 2",
 
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst": "Biomas Quentes drenam mais sede",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[0]": "Faz com que a barra de sede seja drenada mais rápido quando player está em um bioma quente",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[1]": "Verdadeiro signifgica que a barra de sede será drenada mais rápido quando o player estiver em um bioma quente",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[2]": "O padrão é: verdadeiro",
+
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value": "Fator de dreno de Biomas Quentes",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[0]": "Define o quão mais rápido a barra de sede irá ser drenada quando o player estiver no em biomas quentes",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[1]": "Valores maiores significam que a barra de sede será drenada mais rápido",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[2]": "O padrão é: 1.05 (5%)",
 
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst": "O Nether drena mais sede",
-  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[0]": "Faz com que a barra de sede seja drenada mais rápido quando player está no Nether ",
-  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[1]": "Verdadeiro signifgica que a barra de sede será drenada mais rápido quando o player estiver no Nether ",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[0]": "Faz com que a barra de sede seja drenada mais rápido quando player está no Nether",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[1]": "Verdadeiro signifgica que a barra de sede será drenada mais rápido quando o player estiver no Nether",
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[2]": "O padrão é: verdaeiro",
 
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value": "Fator de dreno do Nether",
@@ -146,10 +190,10 @@
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[1]": "Valores maiores significam que a barra de sede será drenada mais rápido",
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[2]": "O padrão é: 1.10 (10%)",
 
-  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture": "Textura da barra de sede no Nether",
-  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[0]": "Define a texture da barra de sede quando o player está no Nether",
-  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[1]": "1 é a textura com contorno vermelho, 2 é a textura com as gotas flamejantes, 3 não aplica nenhuma textura diferente",
-  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "O padrão é: 1",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture": "Textura da barra de sede quente",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[0]": "Define a texture da barra de sede quando o player está no em biomas quentes ou no Nether",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[1]": "1 é a textura com contorno vermelho, 2 é a textura com as gotas flamejantes, 3 não aplica nenhuma textura diferente",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[2]": "O padrão é: 1",
 
 
   "text.autoconfig.itsthirst.option.hud_x": "Posição X da barra de sede",
@@ -157,10 +201,10 @@
   "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Valores maiores significam que a barra de sede irá se mover para a direita",
   "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "O padrão é: 0",
 
-  "text.autoconfig.itsthirst.option.hud_x": "Posição Y da barra de sede",
-  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[0]": "Define a posição no eixo Y para a barra de sede",
-  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Valores maiores significam que a barra de sede irá se mover para baixo",
-  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "O padrão é: 0",
+  "text.autoconfig.itsthirst.option.hud_y": "Posição Y da barra de sede",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[0]": "Define a posição no eixo Y para a barra de sede",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[1]": "Valores maiores significam que a barra de sede irá se mover para baixo",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[2]": "O padrão é: 0",
 
 
 

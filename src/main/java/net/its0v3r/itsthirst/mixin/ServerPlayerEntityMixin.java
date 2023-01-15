@@ -1,8 +1,8 @@
 package net.its0v3r.itsthirst.mixin;
 
 import com.mojang.authlib.GameProfile;
+import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
-import net.its0v3r.ItsThirstMain;
 import net.its0v3r.itsthirst.access.ServerPlayerAccess;
 import net.its0v3r.itsthirst.access.ThirstManagerAccess;
 import net.its0v3r.itsthirst.identifier.NetworkPacketsIdentifiers;
@@ -24,10 +24,13 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(ServerPlayerEntity.class)
 public abstract class ServerPlayerEntityMixin extends PlayerEntity implements ServerPlayerAccess {
     // Access the thirst manager
-    private ThirstManager thirstManager = ((ThirstManagerAccess) this).getThirstManager();
+    private final ThirstManager thirstManager = ((ThirstManagerAccess) this).getThirstManager();
 
     // Variable to check for the syncronyzhation of th thirst
     private int syncedThirstLevel = -1;
+
+    // Variable to check for the syncronyzhation of th thirst
+    private boolean syncedIsInHotBiomeForEnoughTime = false;
 
     // Variable to sync the thirst after the player is not null anymore
     private int syncThirstAfterChangeDimensionValue = 0;
@@ -41,11 +44,11 @@ public abstract class ServerPlayerEntityMixin extends PlayerEntity implements Se
     // Sync the thirst level from server to client
     @Inject(method = "playerTick", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/player/PlayerEntity;tick()V", shift = At.Shift.AFTER))
     public void vanillaThirst$syncThirstServerClient(CallbackInfo info) {
+        // ServerPlayerEntity
+        ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity) (Object) this;
+
         // Check if the syncedThirstLevel is differente from the thirst level defined on the ServerPlayer
         if (this.syncedThirstLevel != this.thirstManager.getThirstLevel() && this.thirstManager.isModEnabled() || syncThirstAfterChangeDimensionValue > 0 && this.thirstManager.isModEnabled()) {
-            // ServerPlayerEntity
-            ServerPlayerEntity serverPlayerEntity = (ServerPlayerEntity) (Object) this;
-
             // Send a sync packet
             PacketByteBuf buffer = defaultBuffers.createSyncThirstDefaultBuffer(serverPlayerEntity);
             ServerPlayNetworking.send(serverPlayerEntity, NetworkPacketsIdentifiers.SYNC_THIRST_ID, buffer);
@@ -57,6 +60,14 @@ public abstract class ServerPlayerEntityMixin extends PlayerEntity implements Se
             if (syncThirstAfterChangeDimensionValue > 0) {
                 syncThirstAfterChangeDimensionValue--;
             }
+        }
+
+        // Sync if the player is in a hot biome for enough time with the client HUD
+        if (this.syncedIsInHotBiomeForEnoughTime != this.thirstManager.getIsInHotBiomeForEnoughtTime()) {
+            PacketByteBuf buffer = PacketByteBufs.create();
+            buffer.writeBoolean(this.thirstManager.getIsInHotBiomeForEnoughtTime());
+            ServerPlayNetworking.send(serverPlayerEntity, NetworkPacketsIdentifiers.SYNC_HUD_ID, buffer);
+            this.syncedIsInHotBiomeForEnoughTime = this.thirstManager.getIsInHotBiomeForEnoughtTime();
         }
     }
 

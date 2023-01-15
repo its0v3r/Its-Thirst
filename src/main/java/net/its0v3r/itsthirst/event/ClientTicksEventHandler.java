@@ -4,6 +4,9 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.its0v3r.itsthirst.identifier.NetworkPacketsIdentifiers;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.LeveledCauldronBlock;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.network.PacketByteBuf;
@@ -20,7 +23,7 @@ public class ClientTicksEventHandler implements ClientTickEvents.StartTick {
     private static PlayerEntity player;
 
 
-    // OnStartTock
+    // Check the player right click
     @Override
     public void onStartTick(MinecraftClient client) {
         if (client.player != null && client.world != null) {
@@ -41,6 +44,7 @@ public class ClientTicksEventHandler implements ClientTickEvents.StartTick {
 
         // Get the raycast cordinates go get a BlockPos in the world
         blockPos = ((BlockHitResult) hitResult).getBlockPos();
+
 
         // If the player is sneaking, and the active hand is the main, and the hand is empty, and the fluidState in the blockPos is presente om the Water FluidTags
         if (!player.isSpectator() && player.isSneaking() && player.getActiveHand() == Hand.MAIN_HAND && player.getMainHandStack().isEmpty()) {
@@ -64,19 +68,41 @@ public class ClientTicksEventHandler implements ClientTickEvents.StartTick {
                 ClientPlayNetworking.send(NetworkPacketsIdentifiers.DRINK_WATER_ID, buffer);
                 return;
             }
+
+            // If the player can't drink from water or rain, check if he can drink from cauldron
+            if (canDrinKFromWaterCauldron()) {
+                // Write the buffer to send data to the server
+                PacketByteBuf buffer = PacketByteBufs.create();
+                buffer.writeString("cauldron");
+                buffer.writeBlockPos(blockPos);
+                ClientPlayNetworking.send(NetworkPacketsIdentifiers.DRINK_WATER_ID, buffer);
+                return;
+            }
         }
     }
 
 
-    // Check if there is the player is looking at an water source block
+    // Check if the player is looking at an water source block
     private static boolean canDrinkFromWater() {
         return world.getFluidState(blockPos).isIn(FluidTags.WATER);
-
     }
 
 
-    // Drink water from rain
+    // Check if the world is raining and the player is looking at the sky
     private static boolean canDrinkFromRain() {
         return player.getPitch() < -80.0f && world.hasRain(player.getBlockPos().add(0, 2, 0));
+    }
+
+
+    // Check if the player is looking at a cauldron block with water
+    private static boolean canDrinKFromWaterCauldron() {
+        BlockState blockState = world.getBlockState(blockPos);
+        if (!(blockState.getBlock() == Blocks.WATER_CAULDRON)) {
+            return false;
+        }
+        if (blockState.get(LeveledCauldronBlock.LEVEL) != 0) {
+            return true;
+        }
+        return false;
     }
 }

@@ -23,10 +23,30 @@ public class VanillaThirstConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip(count = 3)
     public int drank_from_water_source_cooldown = 1;
 
+    // Water source thirst restoration factor
+    @ConfigEntry.Category("general_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public int water_source_restore_thirst_factor = 1;
+
     // Drank from rain cooldown
     @ConfigEntry.Category("general_settings")
     @ConfigEntry.Gui.Tooltip(count = 3)
     public int drank_from_rain_cooldown = 4;
+
+    // Rain thirst restoration factor
+    @ConfigEntry.Category("general_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public int rain_restore_thirst_factor = 1;
+
+    // Drank from cauldron source cooldown
+    @ConfigEntry.Category("general_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public int drank_from_cauldron_cooldown = 1;
+
+    // Cauldron thirst restoration factor
+    @ConfigEntry.Category("general_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public int cauldron_restore_thirst_factor = 1;
 
     // Only regen if health and hunger is full
     @ConfigEntry.Category("general_settings")
@@ -38,20 +58,35 @@ public class VanillaThirstConfig implements ConfigData {
     @ConfigEntry.Gui.Tooltip(count = 3)
     public boolean bad_water = true;
 
-    // Bad water
+    // Bad water applies to water source
     @ConfigEntry.Category("bad_water_settings")
     @ConfigEntry.Gui.Tooltip(count = 3)
-    public boolean bad_water_applies_to_rain = false;
+    public boolean bad_water_applies_to_water_source = true;
 
     // Bad water chance from water source
     @ConfigEntry.Category("bad_water_settings")
     @ConfigEntry.Gui.Tooltip(count = 3)
     public float bad_water_from_water_source_chance = 0.75f;
 
+    // Bad water applies to rain
+    @ConfigEntry.Category("bad_water_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public boolean bad_water_applies_to_rain = false;
+
     // Bad water chance from rain
     @ConfigEntry.Category("bad_water_settings")
     @ConfigEntry.Gui.Tooltip(count = 3)
     public float bad_water_from_rain_chance = 0.01f;
+
+    // Bad water applies to cauldron
+    @ConfigEntry.Category("bad_water_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public boolean bad_water_applies_to_cauldron = false;
+
+    // Bad water chance from cauldron
+    @ConfigEntry.Category("bad_water_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public float bad_water_from_cauldron_chance = 0.01f;
 
     // Bad water thirst effect duration
     @ConfigEntry.Category("bad_water_thirst_effect_settings")
@@ -128,20 +163,30 @@ public class VanillaThirstConfig implements ConfigData {
     public int hydrating_stew_value = 2;
 
     // Harder nether
-    @ConfigEntry.Category("nether_settings")
+    @ConfigEntry.Category("biome_and_nether_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public boolean hot_biomes_drains_more_thirst = true;
+
+    // Harder nether factor
+    @ConfigEntry.Category("biome_and_nether_settings")
+    @ConfigEntry.Gui.Tooltip(count = 3)
+    public float hot_biomes_drains_more_thirst_value = 1.05F;
+
+    // Harder nether
+    @ConfigEntry.Category("biome_and_nether_settings")
     @ConfigEntry.Gui.Tooltip(count = 3)
     public boolean nether_drains_more_thirst = true;
 
     // Harder nether factor
-    @ConfigEntry.Category("nether_settings")
+    @ConfigEntry.Category("biome_and_nether_settings")
     @ConfigEntry.Gui.Tooltip(count = 3)
     public float nether_drains_more_thirst_value = 1.10F;
 
     // Thirst bar texture
-    @ConfigEntry.Category("nether_settings")
+    @ConfigEntry.Category("biome_and_nether_settings")
     @ConfigEntry.Gui.Tooltip(count = 3)
     @ConfigEntry.BoundedDiscrete(min = 1, max = 3)
-    public int nether_thirst_bar_texture = 1;
+    public int hot_thirst_bar_texture = 1;
 
     // Hud X
     @ConfigEntry.Category("hud_position_settings")

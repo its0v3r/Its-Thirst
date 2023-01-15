@@ -5,7 +5,7 @@
   "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Bad Water Thirst Effect Settings",
   "text.autoconfig.itsthirst.category.stack_settings": "Stack Bottles Settings",
   "text.autoconfig.itsthirst.category.food_and_drink_settings": "Food and Drink Settings",
-  "text.autoconfig.itsthirst.category.nether_settings": "Nether Settings",
+  "text.autoconfig.itsthirst.category.biome_and_nether_settings": "Hot Biomes and Nether Settings",
   "text.autoconfig.itsthirst.category.hud_position_settings": "HUD Position Settings",
 
 
@@ -24,10 +24,30 @@
   "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[1]": "Bigger values means more cooldown time",
   "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[2]": "Default is: 1 (1 second / 20 ticks)",
 
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor": "Water restore thirst factor",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[0]": "Defines how much thirst an water source will restore",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[1]": "Bigger values means drinking water from water sources will restore more thirst",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[2]": "Default is: 1",
+
   "text.autoconfig.itsthirst.option.drank_from_rain_cooldown": "Drank from rain cooldown",
   "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[0]": "Defines in seconds the cooldown of that the player need to wait to drink water after drinking water from a rain with right click",
   "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[1]": "Bigger values means more cooldown time",
   "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[2]": "Default is: 4 (4 seconds / 80 ticks)",
+
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor": "Rain restore thirst factor",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[0]": "Defines how much thirst rain will restore",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[1]": "Bigger values means drinking water from rain will restore more thirst",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[2]": "Default is: 1",
+
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown": "Drank from cauldron cooldown",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[0]": "Defines in seconds the cooldown of that the player need to wait to drink water after drinking water from a cauldron with right click",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[1]": "Bigger values means more cooldown time",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[2]": "Default is: 1 (1 second / 20 ticks)",
+
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor": "Cauldron restore thirst factor",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[0]": "Defines how much thirst drinking water from a cauldron will restore",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[1]": "Bigger values means drinking water from a cauldron will restore more thirst",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[2]": "Default is: 1",
 
   "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full": "Only regen health if hunger and thirst bars are full",
   "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[0]": "Defines if the player will only regen health if both hunger and thirst bars are full",
@@ -40,20 +60,35 @@
   "text.autoconfig.itsthirst.option.bad_water.@Tooltip[1]": "True means that there is a chance that the water that the player drank is bad water",
   "text.autoconfig.itsthirst.option.bad_water.@Tooltip[2]": "Default is: true",
 
-  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain": "Apllies to rain",
-  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[0]": "Defines if rain can be bad water",
-  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[1]": "False means that rain will never be bad water",
-  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[2]": "Default is: false",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source": "Apllies to water source",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[0]": "Defines if water souces can be bad water",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[1]": "True means that water sources have a chance to be bad water",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[2]": "Default is: true",
 
   "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance": "Bad Water from water source chance",
   "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[0]": "Defines the chance of a water source being bad water",
   "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[1]": "Bigger values means more chance of water source being a bad water",
   "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[2]": "Default is: 0.75 (75%)",
 
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain": "Apllies to rain",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[0]": "Defines if rain can be bad water",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[1]": "False means that rain will never be bad water",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[2]": "Default is: false",
+
   "text.autoconfig.itsthirst.option.bad_water_from_rain_chance": "Bad Water from rain chance",
   "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[0]": "Defines the chance of rain being bad water",
   "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[1]": "Bigger values means more chance of rain being a bad water",
   "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[2]": "Default is: 0.01",
+
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron": "Apllies to cauldron",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[0]": "Defines if watered cauldrons can be bad water",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[1]": "False means that watered cauldrons will never be bad water",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[2]": "Default is: false",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance": "Bad Water from cauldron chance",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[0]": "Defines the chance of watered cauldron being bad water",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[1]": "Bigger values means more chance of watered cauldron being a bad water",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[2]": "Default is: 0.01",
 
 
   "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration": "Bad Water Thirst Effect duration",
@@ -135,6 +170,15 @@
   "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[1]": "Bigger values means that a hydrating stew will refill more thirst",
   "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[2]": "Default is: 2",
 
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst": "Hot biome drains more thirst",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[0]": "Makes the thirst bar lower more faster when the player is in a hot biomes",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[1]": "True means the thirst bar will lower more faster when the player is in a hot biome",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[2]": "Default is: true",
+
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value": "Hot biome drains more thirst factor",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[0]": "Defines how much more fast the thirst bar will lower if the player enabled the option 'Hot biome drains more thirst'",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[1]": "Bigger values means that the thirst bar will be drained faster",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[2]": "Default is: 1.05 (5%)",
 
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst": "Nether drains more thirst",
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[0]": "Makes the thirst bar lower more faster when the player is in the Nether",
@@ -146,10 +190,10 @@
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[1]": "Bigger values means that the thirst bar will be drained faster",
   "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[2]": "Default is: 1.10 (10%)",
 
-  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture": "Nether thirst bar texture",
-  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[0]": "Defines the texture of the thirst bar when the player is in the Nether",
-  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[1]": "1 means the red outline texture, 2 means the firy water dropplets, 3 means no special texture",
-  "text.autoconfig.itsthirst.option.nether_thirst_bar_texture.@Tooltip[2]": "Default is: 1",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture": "Hot thirst bar texture",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[0]": "Defines the texture of the thirst bar when the player is in a hot biome or in the Nether",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[1]": "1 means the red outline texture, 2 means the firy water dropplets, 3 means no special texture",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[2]": "Default is: 1",
 
 
   "text.autoconfig.itsthirst.option.hud_x": "Thirst Bar X position",

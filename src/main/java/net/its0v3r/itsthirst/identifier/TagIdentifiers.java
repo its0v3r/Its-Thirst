@@ -7,4 +7,5 @@ public class TagIdentifiers {
     public static final Identifier HYDRATING_FOOD = new Identifier(ItsThirstMain.MOD_ID, "hydrating_foods");
     public static final Identifier HYDRATING_DRINK = new Identifier(ItsThirstMain.MOD_ID, "hydrating_drinks");
     public static final Identifier HYDRATING_STEW = new Identifier(ItsThirstMain.MOD_ID, "hydrating_stews");
+    public static final Identifier HOT_BIOME = new Identifier(ItsThirstMain.MOD_ID, "hot_biomes");
 }

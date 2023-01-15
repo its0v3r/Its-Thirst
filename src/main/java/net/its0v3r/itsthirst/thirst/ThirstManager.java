@@ -1,5 +1,6 @@
 package net.its0v3r.itsthirst.thirst;
 
+import net.its0v3r.ItsThirstMain;
 import net.its0v3r.itsthirst.registry.ConfigRegistry;
 import net.its0v3r.itsthirst.registry.DamageSourceRegistry;
 import net.its0v3r.itsthirst.registry.SoundRegistry;
@@ -19,6 +20,10 @@ public class ThirstManager {
     public int drankFromWaterSourceTickTimer;
     public boolean hasDrankFromRain = false;
     public int drankFromRainTickTimer;
+    public boolean hasDrankFromCauldron = false;
+    public int drankFromCauldronTickTimer;
+    public int biomeTicks = 0;
+    public boolean isInHotBiomeForEnoughtTime = false;
 
     // Add thirst level
     public void add(int thirst) {
@@ -83,12 +88,51 @@ public class ThirstManager {
                         SoundCategory.PLAYERS, 0.5f, player.getWorld().random.nextFloat() * 0.1f + 0.9f);
             }
         }
+
+        // Check if the player has drank water from cauldron and add a cooldown
+        if (hasDrankFromCauldron) {
+            ++this.drankFromCauldronTickTimer;
+            if (this.drankFromCauldronTickTimer >= (ConfigRegistry.CONFIG.drank_from_cauldron_cooldown * 20)) {
+                this.drankFromCauldronTickTimer = 0;
+                this.hasDrankFromCauldron = false;
+                player.getWorld().playSound(null, player.getBlockPos(), SoundRegistry.SWALLOW_WATER_AFTER_DRINK,
+                        SoundCategory.PLAYERS, 0.5f, player.getWorld().random.nextFloat() * 0.1f + 0.9f);
+            }
+        }
+
+        // Check for hot biome ticks
+        if (biomeTicks >= 100) {
+            isInHotBiomeForEnoughtTime = true;
+        } else {
+            isInHotBiomeForEnoughtTime = false;
+        }
+
+    }
+
+
+    // Return if the player has drank from any water source recently
+    public boolean hasDrankFromSomeSource() {
+        if (this.hasDrankFromWaterSource) {
+            return true;
+        } else if (this.hasDrankFromRain) {
+            return true;
+        } else if (this.hasDrankFromCauldron) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 
     // Return if the mod is enabled
     public boolean isModEnabled() {
         return this.isModEnabled;
+    }
+
+
+    // Check if the thirst level is full
+    public boolean isNotFull() {
+        return this.thirstLevel < 20;
     }
 
 
@@ -104,15 +148,26 @@ public class ThirstManager {
     }
 
 
-    // Check if the thirst level is full
-    public boolean isNotFull() {
-        return this.thirstLevel < 20;
-    }
-
-
     // Add dehydration based on a exhaustion float
     public void addDehydration(float dehydration) {
         this.dehydrationLevel = Math.min(this.dehydrationLevel + dehydration, 40.0F);
+    }
+
+    // Check if the biome ticks is at max value
+    public boolean isBiomeTicksAtMaxValue() {
+        return this.biomeTicks >= 200;
+    }
+
+
+    // Get if the player is enought time in a biome
+    public boolean getIsInHotBiomeForEnoughtTime() {
+        return this.isInHotBiomeForEnoughtTime;
+    }
+
+
+    // Set if the player is enought time in a biome
+    public boolean setIsInHotBiomeForEnoughtTime(boolean value) {
+        return this.isInHotBiomeForEnoughtTime = value;
     }
 
 

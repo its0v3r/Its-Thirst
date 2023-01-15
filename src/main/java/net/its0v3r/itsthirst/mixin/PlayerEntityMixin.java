@@ -1,5 +1,6 @@
 package net.its0v3r.itsthirst.mixin;
 
+import net.fabricmc.loader.api.FabricLoader;
 import net.its0v3r.ItsThirstMain;
 import net.its0v3r.itsthirst.access.ThirstManagerAccess;
 import net.its0v3r.itsthirst.registry.ConfigRegistry;
@@ -10,6 +11,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NbtCompound;
+import net.minecraft.registry.tag.BiomeTags;
 import net.minecraft.world.Difficulty;
 import net.minecraft.world.GameRules;
 import net.minecraft.world.World;
@@ -39,14 +41,25 @@ public abstract class PlayerEntityMixin extends LivingEntity implements ThirstMa
     }
 
 
-    // Tick
+    // Update the thirst manager at each tick and change the hot biomes ticks
     @Inject(method = "tick()V", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/player/HungerManager;update(Lnet/minecraft/entity/player/PlayerEntity;)V", shift = At.Shift.AFTER))
     private void vanillaThirst$updateThirst(CallbackInfo info) {
-        this.thirstManager.update((PlayerEntity) (Object) this);
+        PlayerEntity player = (PlayerEntity) (Object) this;
+
+        this.thirstManager.update(player);
+
+        // Change hot biome ticks value
+        if (!this.thirstManager.isBiomeTicksAtMaxValue() && player.world.getBiome(player.getBlockPos()).isIn(TagRegistry.HOT_BIOME)) {
+            this.thirstManager.biomeTicks++;
+        } else if (!player.world.getBiome(player.getBlockPos()).isIn(TagRegistry.HOT_BIOME)) {
+            if (this.thirstManager.biomeTicks > 0) {
+                this.thirstManager.biomeTicks--;
+            }
+        }
     }
 
 
-    // Tick movement
+    // Auto regen health
     @Inject(method = "tickMovement()V", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/player/PlayerInventory;updateItems()V", shift = At.Shift.BEFORE))
     private void vanillaThirst$autoRegenThirstIfPeaceful(CallbackInfo info) {
         // Regenerate hearts if on peaceful and natural regenration is turned on
@@ -78,9 +91,16 @@ public abstract class PlayerEntityMixin extends LivingEntity implements ThirstMa
     // Add Dehydration based on the player exhaustion
     @Inject(method = "addExhaustion", at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/player/HungerManager;addExhaustion(F)V", shift = At.Shift.AFTER))
     public void vanillaThirst$addExhaustion(float exhaustion, CallbackInfo ci) {
+        PlayerEntity player = (PlayerEntity) (Object) this;
+
         // Add more exhaustion in the player is in the nether and the option in active
         if (ConfigRegistry.CONFIG.nether_drains_more_thirst && this.world.getRegistryKey() == World.NETHER) {
             exhaustion *= ConfigRegistry.CONFIG.nether_drains_more_thirst_value;
+        }
+
+        // Add more exhaustion in the player is in a hot biome and the option in active
+        if (ConfigRegistry.CONFIG.hot_biomes_drains_more_thirst && this.thirstManager.isInHotBiomeForEnoughtTime) {
+            exhaustion *= ConfigRegistry.CONFIG.hot_biomes_drains_more_thirst_value;
         }
 
         // Add exhaustion

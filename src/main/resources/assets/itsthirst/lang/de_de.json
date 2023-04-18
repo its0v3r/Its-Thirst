@@ -1,0 +1,206 @@
+{
+  "text.autoconfig.itsthirst.title": "Einfache Durst-Konfiguration",
+  "text.autoconfig.itsthirst.category.general_settings": "Allgemein",
+  "text.autoconfig.itsthirst.category.bad_water_settings": "Schlechtes Wasser",
+  "text.autoconfig.itsthirst.category.bad_water_thirst_effect_settings": "Schlechtes Wasser Durst-Effekt",
+  "text.autoconfig.itsthirst.category.stack_settings": "Flaschen stapeln",
+  "text.autoconfig.itsthirst.category.food_and_drink_settings": "Essen und Trinken",
+  "text.autoconfig.itsthirst.category.biome_and_nether_settings": "Heiße Biome und Nether",
+  "text.autoconfig.itsthirst.category.hud_position_settings": "HUD-Position",
+
+  "text.autoconfig.itsthirst.option.damage_from_thirst": "Schaden durch leeren Durst",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[0]": "Definiert den alle 4 Sekunden erlittenen Schaden",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[1]": "Größere Werte bedeuten mehr Schaden, der dem Spieler zugefügt wird",
+  "text.autoconfig.itsthirst.option.damage_from_thirst.@Tooltip[2]": "Standard ist: 1.0",
+
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed": "Durstgeschwindigkeit",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[0]": "Legt fest, wie schnell der Durstpegel sinkt",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[1]": "Größere Werte bedeuten, dass es länger dauert, bis der Durstpegel sinkt",
+  "text.autoconfig.itsthirst.option.general_thirst_drain_speed.@Tooltip[2]": "Standard ist: 2.25",
+
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown": "Aus Wasserquelle getrunken Abklingzeit",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[0]": "Definiert die Abklingzeit in Sekunden, die der Spieler warten muss, um Wasser zu trinken, nachdem er mit einem Rechtsklick Wasser aus einer Wasserquelle getrunken hat",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[1]": "Größere Werte bedeuten mehr Abkühlungszeit",
+  "text.autoconfig.itsthirst.option.drank_from_water_source_cooldown.@Tooltip[2]": "Standard ist: 1 (1 Sekunde / 20 Ticks)",
+
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor": "Wasserwiederherstellungs-Durstfaktor",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[0]": "Legt fest, wie viel Durst eine Wasserquelle wiederherstellen wird",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[1]": "Größere Werte bedeuten, dass das Trinken von Wasser aus Wasserquellen mehr Durst wiederherstellt",
+  "text.autoconfig.itsthirst.option.water_source_restore_thirst_factor.@Tooltip[2]": "Standard ist: 1",
+
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown": "Getrunken aus Regen Abklingzeit",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[0]": "Definiert die Abklingzeit in Sekunden, die der Spieler warten muss, um Wasser zu trinken, nachdem er mit einem Rechtsklick Wasser aus einem Regen getrunken hat",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[1]": "Größere Werte bedeuten mehr Abkühlungszeit",
+  "text.autoconfig.itsthirst.option.drank_from_rain_cooldown.@Tooltip[2]": "Standard ist: 4 (4 Sekunden / 80 Ticks)",
+
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor": "Regen-Wiederherstellungs-Durst-Faktor",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[0]": "Legt fest, wie viel Durst der Regen wiederherstellen wird",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[1]": "Größere Werte bedeuten, dass das Trinken von Regenwasser mehr Durst wiederherstellt",
+  "text.autoconfig.itsthirst.option.rain_restore_thirst_factor.@Tooltip[2]": "Standard ist: 1",
+
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown": "Getrunken aus Kessel Abklingzeit",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[0]": "Legt die Abklingzeit in Sekunden fest, die der Spieler warten muss, um Wasser zu trinken, nachdem er mit Rechtsklick Wasser aus einem Kessel getrunken hat",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[1]": "Größere Werte bedeuten eine längere Abklingzeit",
+  "text.autoconfig.itsthirst.option.drank_from_cauldron_cooldown.@Tooltip[2]": "Standard ist: 1 (1 Sekunde / 20 Ticks)",
+
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor": "Kessel-Wiederherstellungs-Durstfaktor",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[0]": "Legt fest, wie viel Durst das Trinken von Wasser aus einem Kessel wiederherstellt",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[1]": "Größere Werte bedeuten, dass das Trinken von Wasser aus einem Kessel mehr Durst wiederherstellt",
+  "text.autoconfig.itsthirst.option.cauldron_restore_thirst_factor.@Tooltip[2]": "Standard ist: 1",
+
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full": "Nur Gesundheit regenerieren, wenn Hunger- und Durstbalken voll sind",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[0]": "Legt fest, ob der Spieler nur dann Gesundheit regeneriert, wenn sowohl die Hunger- als auch die Durstleiste voll sind",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[1]": "False bedeutet das normale Minecraft-Verhalten, bei dem der Spieler Gesundheit regeneriert, wenn der Hungerbalken voll ist, es gibt keine Beeinflussung durch den Durstbalken",
+  "text.autoconfig.itsthirst.option.only_regen_health_if_hunger_and_thirst_full.@Tooltip[2]": "Standard ist: false",
+
+  "text.autoconfig.itsthirst.option.bad_water": "Schlechtes Wasser aktivieren",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[0]": "Legt fest, ob der Spieler die Möglichkeit hat, schlechtes Wasser zu trinken, wenn er mit der rechten Maustaste auf eine Wasserquelle oder Regen klickt",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[1]": "True bedeutet, dass die Chance besteht, dass das Wasser, das der Spieler getrunken hat, schlechtes Wasser ist",
+  "text.autoconfig.itsthirst.option.bad_water.@Tooltip[2]": "Standard ist: true",
+ 
+ "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source": "Gilt für Wasserquelle",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[0]": "Definiert, ob Wasserquellen schlechtes Wasser sein können",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[1]": "True bedeutet, dass Wasserquellen eine Chance haben, schlechtes Wasser zu sein",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_water_source.@Tooltip[2]": "Standard ist: true",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance": "Chance auf schlechtes Wasser aus der Wasserquelle",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[0]": "Definiert die Wahrscheinlichkeit, dass eine Wasserquelle schlechtes Wasser ist",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[1]": "Größere Werte bedeuten eine höhere Wahrscheinlichkeit, dass die Wasserquelle schlechtes Wasser ist",
+  "text.autoconfig.itsthirst.option.bad_water_from_water_source_chance.@Tooltip[2]": "Standard ist: 0.75 (75%)",
+
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain": "Gilt für Regen",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[0]": "Definiert, ob Regen schlechtes Wasser sein kann",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[1]": "False bedeutet, dass Regen nie schlechtes Wasser sein wird",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_rain.@Tooltip[2]": "Standard ist: false",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance": "Schlechtes Wasser durch Regenchance",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[0]": "Definiert die Chance, dass Regen schlechtes Wasser ist",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[1]": "Größere Werte bedeuten eine höhere Wahrscheinlichkeit, dass Regen schlechtes Wasser ist",
+  "text.autoconfig.itsthirst.option.bad_water_from_rain_chance.@Tooltip[2]": "Standard ist: 0.01",
+
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron": "Gilt für den Kessel",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[0]": "Legt fest, ob gegossene Kessel schlechtes Wasser sein können",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[1]": "False bedeutet, dass gegossene Kessel niemals schlechtes Wasser sein werden",
+  "text.autoconfig.itsthirst.option.bad_water_applies_to_cauldron.@Tooltip[2]": "Standard ist: false",
+
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance": "Schlechtes Wasser aus dem Kessel Chance",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[0]": "Definiert die Wahrscheinlichkeit, dass das Wasser aus dem Kessel schlechtes Wasser ist",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[1]": "Größere Werte bedeuten eine höhere Wahrscheinlichkeit, dass das Wasser aus dem Kessel schlechtes Wasser ist",
+  "text.autoconfig.itsthirst.option.bad_water_from_cauldron_chance.@Tooltip[2]": "Standard ist: 0.01",
+
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration": "Dauer des schlechten Wasserdurst-Effekts",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[0]": "Definiert die Dauer des Durst-Effekts",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[1]": "Größere Werte bedeuten, dass der Durst-Effekt länger anhält",
+  "text.autoconfig.itsthirst.option.bad_water_thirst_effect_duration.@Tooltip[2]": "Standard ist: 30 (30 Sekunden / 600 Ticks)",
+
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor": "Schlechtes-Wasser-Durst-Effekt-Faktor",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[0]": "Legt fest, wie viel des Spielerdurstes der Durst-Effekt entzieht",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[1]": "Größere Werte bedeuten, dass der Durst-Effekt mehr Durst entzieht",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[2]": "Der Wert basiert auf der Minecraft-Erschöpfung + Verstärker",
+  "text.autoconfig.itsthirst.option.bad_water_drain_thirst_factor_factor.@Tooltip[3]": "Standard ist: 0.05",
+
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect": "Niedriges Durstniveau wendet den Abbaugeschwindigkeitsseffekt an",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[0]": "Legt fest, ob der Spieler den Abbaugeschwindigkeitsseffekt erhalten soll, wenn der Durstpegel niedrig ist",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[1]": "True bedeutet, dass der Abbaugeschwindigkeitsseffekt auf den Spieler angewendet wird, wenn der Durstpegel niedrig ist",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_haste_effect.@Tooltip[2]": "Standard ist: true",
+
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect": "Minimaler Durstlevel, um den Abbaugeschwindigkeitsseffekt anzuwenden",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[0]": "Legt fest, wie niedrig der Durstpegel sein muss, damit der Eile-Effekt angewendet wird",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[1]": "Größer bedeutet, dass der Abbaugeschwindigkeitsseffekt angewendet wird, wenn der Spieler mehr Durstlevel hat",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_haste_effect.@Tooltip[2]": "Standard ist: 4",
+
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect": "Niedriges Durstniveau wendet den Effekt der Eile an",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[0]": "Legt fest, ob der Spieler den Abbaugeschwindigkeitsseffekt erhalten soll, wenn der Durstpegel niedrig ist",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[1]": "True bedeutet, dass der Abbaugeschwindigkeitsseffekt auf den Spieler angewendet wird, wenn der Durstpegel niedrig ist",
+  "text.autoconfig.itsthirst.option.should_thirst_apply_mining_fatigue_effect.@Tooltip[2]": "Standard ist: true",
+ 
+ "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect": "Minimaler Durstlevel, um den Abbaugeschwindigkeitsseffekt anzuwenden",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[0]": "Legt fest, wie niedrig der Durstlevel sein muss, damit der Abbaugeschwindigkeitsseffekt angewendet wird",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[1]": "Größere Werte bedeuten, dass der Abbaugeschwindigkeitsseffekt angewendet wird, wenn der Spieler mehr Durstlevel hat",
+  "text.autoconfig.itsthirst.option.minimum_thirst_level_to_apply_mining_fatigue_effect.@Tooltip[2]": "Standard ist: 2",
+
+  "text.autoconfig.itsthirst.option.can_stack_glass": "Kann leere Flaschen stapeln",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[0]": "Legt fest, ob der Spieler mehr als 1 leere Flasche stapeln kann",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[1]": "False bedeutet das normale Minecraft-Verhalten, bei dem der Spieler nicht mehr als 1 leere Flasche stapeln kann",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[2]": "Warnung 1: Dieser Effekt wird nur angewendet, wenn der Spieler sich wieder mit der Welt verbindet",
+  "text.autoconfig.itsthirst.option.can_stack_glass.@Tooltip[3]": "Standard ist: false",
+
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor": "Kann leere Flaschen stapeln Faktor",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[0]": "Definiert leere Flaschen, die der Spieler stapeln kann",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[1]": "Größere Zahlen bedeuten, dass der Spieler mehr leere Flaschen stapeln kann",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[2]": "Achtung: Dieser Effekt wird nur angewendet, wenn der Spieler die Welt wieder verbindet",
+  "text.autoconfig.itsthirst.option.can_stack_glass_factor.@Tooltip[3]": "Standard ist: 1",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion": "Kann Wasserflaschen stapeln",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[0]": "Legt fest, ob der Spieler mehr als 1 Wasserflasche stapeln kann",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[1]": "False bedeutet das normale Minecraft-Verhalten, bei dem der Spieler nicht mehr als 1 Wasserflasche stapeln kann",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[2]": "Warnung 1: Dieser Effekt wird nur angewendet, wenn der Spieler sich wieder mit der Welt verbindet",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[3]": "Warnung 2: Dieser Effekt wird auf alle Gegenstände mit dem Namen 'minecraft:potion' angewendet, so dass jede Flasche mit Spezialeffekten davon betroffen ist",
+  "text.autoconfig.itsthirst.option.can_stack_potion.@Tooltip[4]": "Standard ist: false",
+
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor": "Kann Wasserflaschen stapeln Faktor",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[0]": "Legt fest, wie viele Wasserflaschen der Spieler stapeln kann",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[1]": "Größere Zahlen bedeuten, dass der Spieler mehr Wasserflaschen stapeln kann",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[2]": "Achtung: Dieser Effekt wird nur angewendet, wenn der Spieler die Welt wieder verbindet",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[3]": "Warnung 2: Dieser Effekt wird auf alle Gegenstände mit dem Namen 'minecraft:potion' angewendet, so dass jede Flasche mit Spezialeffekten davon betroffen ist",
+  "text.autoconfig.itsthirst.option.can_stack_potion_factor.@Tooltip[4]": "Standard ist: 1",
+
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full": "Kann Nahrungsmittel konsumieren, wenn die Durstleiste nicht voll ist",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[0]": "Legt fest, ob der Spieler Nahrungsmittel konsumieren kann, die den Durst senken, wenn der Hungerbalken voll ist, der Durstbalken aber nicht",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[1]": "True bedeutet, dass der Spieler auch dann Nahrungsmittel konsumieren kann, die den Durst senken, wenn die Hungerleiste voll ist, die Durstleiste aber nicht",
+  "text.autoconfig.itsthirst.option.can_eat_if_thirst_bar_not_full.@Tooltip[2]": "Standard ist: true",
+
+  "text.autoconfig.itsthirst.option.hydrating_drink_value": "Faktor des hydratisierenden Getränks",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[0]": "Wie viel Durst ein mit #hydrating_drinks gekennzeichnetes Getränk wieder auffüllt",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[1]": "Größere Werte bedeuten, dass ein hydratisierendes Getränk mehr Durst auffüllt",
+  "text.autoconfig.itsthirst.option.hydrating_drink_value.@Tooltip[2]": "Standard ist: 6",
+
+  "text.autoconfig.itsthirst.option.hydrating_food_value": "Hydratisierender Nahrungsmittelfaktor",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[0]": "Wie viel Durst ein mit #hydrating_foods gekennzeichnetes Lebensmittel stillen wird",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[1]": "Größere Werte bedeuten, dass ein hydratisierendes Lebensmittel mehr Durst löschen wird",
+  "text.autoconfig.itsthirst.option.hydrating_food_value.@Tooltip[2]": "Standardwert ist: 2",
+
+  "text.autoconfig.itsthirst.option.hydrating_stew_value": "Hydratisierender Eintopf-Faktor",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[0]": "Wie viel Durst ein mit #hydrating_stews markierter Eintopf stillt",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[1]": "Größere Werte bedeuten, dass ein hydratisierender Eintopf mehr Durst stillt",
+  "text.autoconfig.itsthirst.option.hydrating_stew_value.@Tooltip[2]": "Standardwert ist: 2",
+
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst": "Heißes Biom entzieht mehr Durst",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[0]": "Lässt den Durstbalken schneller sinken, wenn sich der Spieler in einem heißen Biome befindet",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[1]": "True bedeutet, dass der Durstbalken schneller sinkt, wenn sich der Spieler in einem heißen Biom befindet",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst.@Tooltip[2]": "Standard ist: true",
+
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value": "Heißes Biom entzieht mehr Durstfaktor",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[0]": "Legt fest, um wie viel schneller der Durstbalken sinkt, wenn der Spieler die Option 'Heißes Biom entzieht mehr Durst' aktiviert hat",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[1]": "Größere Werte bedeuten, dass die Durstleiste schneller geleert wird",
+  "text.autoconfig.itsthirst.option.hot_biomes_drains_more_thirst_value.@Tooltip[2]": "Standard ist: 1.05 (5%)",
+
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst": "Nether entwässert mehr Durst",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[0]": "Lässt den Durstbalken schneller sinken, wenn sich der Spieler im Nether befindet",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[1]": "True bedeutet, dass der Durstbalken schneller sinkt, wenn sich der Spieler im Nether befindet",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst.@Tooltip[2]": "Standard ist: true",
+
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value": "Nether entwässert mehr Durstfaktor",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[0]": "Legt fest, um wie viel schneller der Durstbalken sinkt, wenn der Spieler die Option 'Nether entzieht mehr Durst' aktiviert hat",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[1]": "Größere Werte bedeuten, dass der Durstbalken schneller geleert wird",
+  "text.autoconfig.itsthirst.option.nether_drains_more_thirst_value.@Tooltip[2]": "Standard ist: 1.10 (10%)",
+
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture": "Heißer-Durst-Balken-Textur",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[0]": "Definiert die Textur des Durstbalkens, wenn sich der Spieler in einem heißen Biome oder im Nether befindet",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[1]": "1 bedeutet die rote Umriss-Textur, 2 bedeutet die feurigen Wassertröpfchen, 3 bedeutet keine spezielle Textur",
+  "text.autoconfig.itsthirst.option.hot_thirst_bar_texture.@Tooltip[2]": "Standard ist: 1",
+
+  "text.autoconfig.itsthirst.option.hud_x": "Position der Durstleiste X",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[0]": "Definiert die Position in der X-Achse der Durstleiste",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[1]": "Größere Werte bedeuten, dass die Durstleiste nach rechts verschoben wird",
+  "text.autoconfig.itsthirst.option.hud_x.@Tooltip[2]": "Standard ist: 0",
+
+  "text.autoconfig.itsthirst.option.hud_y": "Y-Position der Durstleiste",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[0]": "Definiert die Position auf der Y-Achse der Durstleiste",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[1]": "Größere Werte bedeuten, dass sich der Durstbalken nach unten bewegt",
+  "text.autoconfig.itsthirst.option.hud_y.@Tooltip[2]": "Standard ist: 0",
+
+  "itsthirst.swallow_water_after_drink": "Geschlucktes Wasser",
+
+  "effect.itsthirst.thirst": "Durst"
+}
